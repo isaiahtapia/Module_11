@@ -1,8 +1,6 @@
 //Imports (packages and api routes)
 const express = require('express');
-const fs = require('fs');
 const path = require('path');
-const uuid = require('uuid');
 
 //Using express to create this application
 const app = express();
@@ -18,7 +16,7 @@ app.use(express.json());
 app.use(express.static('./public'));
 
 //Routes
-app.use('/', view_routes);`  `
+app.use('/', view_routes);
 app.use('/api', api_routes);
 
 app.listen(PORT, () => {

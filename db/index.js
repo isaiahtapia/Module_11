@@ -12,10 +12,9 @@ async function saveNotes(updatedNotesArray) {
     await fs.writeFile('./db/db.json', JSON.stringify(updatedNotesArray, null, 2));
 
     console.log('your notes that json file was updated!')
-
 }
 
 module.exports = {
-    getNotes: getNotes,
-    saveNotes: saveNotes,
+    getNotes,
+    saveNotes,
 }

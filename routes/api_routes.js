@@ -13,7 +13,6 @@ router.get('/notes', async (requestObj, responseObj) => {
 
 // Receiving form data to create a note and sends the user back to the homepage
 router.post('/notes', async (requestObj, responseObj) => {
-    const noteText = requestObj.body.noteText;
     const id = v4();
 
     const notes = await getNotes();
