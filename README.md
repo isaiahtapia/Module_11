@@ -25,8 +25,11 @@ The following shows the web application's appearance and functionality:
 
 ![portfolio](./public/assets/images/Screenshot%202024-09-03%20184957.jpg)
 
-link: https://drive.google.com/file/d/15R8eaGW4yln0-TFDeXUaeh8VU5bqUOM2/view?usp=sharing
+video of it working: https://drive.google.com/file/d/1qT92p7WyJHXNPR4Dm93A2A5poYycjIO9/view?usp=sharing
 
 ## License
 
 This project is licensed under the MIT License
+
+## Issues
+render was giving me issues and i lacked the time to get help. 
