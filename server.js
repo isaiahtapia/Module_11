@@ -9,7 +9,7 @@ const view_routes = require('./routes/view_routes');
 const api_routes = require('./routes/api_routes');
 
 //Creates the Port where our local server runs
-PORT = 3001;
+PORT = 3332;
 
 //Middleware 
 app.use(express.json());
